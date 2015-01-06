@@ -102,6 +102,7 @@
 		0A5E57861A5BC08000D6BF66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A5E57931A5BC08000D6BF66 /* Images.xcassets */,
 				0A5E57871A5BC08000D6BF66 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -130,7 +131,6 @@
 				0A5E57881A5BC08000D6BF66 /* AppDelegate.swift */,
 				0A5E578A1A5BC08000D6BF66 /* GameScene.sks */,
 				0A5E57901A5BC08000D6BF66 /* Main.storyboard */,
-				0A5E57931A5BC08000D6BF66 /* Images.xcassets */,
 				0A5E57951A5BC08000D6BF66 /* LaunchScreen.xib */,
 			);
 			name = "Misc Files";
@@ -445,6 +445,7 @@
 				0A5E57A81A5BC08000D6BF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A5E57A91A5BC08000D6BF66 /* Build configuration list for PBXNativeTarget "GameCenterTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				0A5E57AB1A5BC08000D6BF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

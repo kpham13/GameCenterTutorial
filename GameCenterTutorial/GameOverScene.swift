@@ -10,14 +10,6 @@ import UIKit
 import SpriteKit
 
 class GameOverScene: SKScene {
-   
-}
-
-/*
-import UIKit
-import SpriteKit
-
-class GameOverScene: SKScene {
   
   override init(size: CGSize) {
     super.init(size: size)
@@ -59,4 +51,3 @@ class GameOverScene: SKScene {
   }
   
 }
-*/
