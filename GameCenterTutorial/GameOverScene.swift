@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SpriteKit
 
 class GameOverScene: SKScene {
    
 }
 
+/*
 import UIKit
 import SpriteKit
 
@@ -57,3 +59,4 @@ class GameOverScene: SKScene {
   }
   
 }
+*/

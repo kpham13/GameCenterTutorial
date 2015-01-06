@@ -16,6 +16,9 @@
 		0A5E57971A5BC08000D6BF66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E57951A5BC08000D6BF66 /* LaunchScreen.xib */; };
 		0A5E57A31A5BC08000D6BF66 /* GameCenterTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E57A21A5BC08000D6BF66 /* GameCenterTutorialTests.swift */; };
 		0A5E57AD1A5BC18200D6BF66 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E57AC1A5BC18200D6BF66 /* GameOverScene.swift */; };
+		0A5E57B31A5BCBD700D6BF66 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E57B01A5BCBD700D6BF66 /* bg.png */; };
+		0A5E57B41A5BCBD700D6BF66 /* red-missile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E57B11A5BCBD700D6BF66 /* red-missile.png */; };
+		0A5E57B51A5BCBD700D6BF66 /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E57B21A5BCBD700D6BF66 /* spaceship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		0A5E57A11A5BC08000D6BF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5E57A21A5BC08000D6BF66 /* GameCenterTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterTutorialTests.swift; sourceTree = "<group>"; };
 		0A5E57AC1A5BC18200D6BF66 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		0A5E57B01A5BCBD700D6BF66 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0A5E57B11A5BCBD700D6BF66 /* red-missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-missile.png"; sourceTree = "<group>"; };
+		0A5E57B21A5BCBD700D6BF66 /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +89,11 @@
 		0A5E57851A5BC08000D6BF66 /* GameCenterTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				0A5E57881A5BC08000D6BF66 /* AppDelegate.swift */,
-				0A5E578A1A5BC08000D6BF66 /* GameScene.sks */,
-				0A5E578C1A5BC08000D6BF66 /* GameScene.swift */,
 				0A5E57AC1A5BC18200D6BF66 /* GameOverScene.swift */,
+				0A5E578C1A5BC08000D6BF66 /* GameScene.swift */,
 				0A5E578E1A5BC08000D6BF66 /* GameViewController.swift */,
-				0A5E57901A5BC08000D6BF66 /* Main.storyboard */,
-				0A5E57931A5BC08000D6BF66 /* Images.xcassets */,
-				0A5E57951A5BC08000D6BF66 /* LaunchScreen.xib */,
+				0A5E57AF1A5BCBD700D6BF66 /* Game Art */,
+				0A5E57AE1A5BCB5000D6BF66 /* Misc Files */,
 				0A5E57861A5BC08000D6BF66 /* Supporting Files */,
 			);
 			path = GameCenterTutorial;
@@ -119,6 +122,28 @@
 				0A5E57A11A5BC08000D6BF66 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A5E57AE1A5BCB5000D6BF66 /* Misc Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E57881A5BC08000D6BF66 /* AppDelegate.swift */,
+				0A5E578A1A5BC08000D6BF66 /* GameScene.sks */,
+				0A5E57901A5BC08000D6BF66 /* Main.storyboard */,
+				0A5E57931A5BC08000D6BF66 /* Images.xcassets */,
+				0A5E57951A5BC08000D6BF66 /* LaunchScreen.xib */,
+			);
+			name = "Misc Files";
+			sourceTree = "<group>";
+		};
+		0A5E57AF1A5BCBD700D6BF66 /* Game Art */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E57B01A5BCBD700D6BF66 /* bg.png */,
+				0A5E57B11A5BCBD700D6BF66 /* red-missile.png */,
+				0A5E57B21A5BCBD700D6BF66 /* spaceship.png */,
+			);
+			path = "Game Art";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5E57B41A5BCBD700D6BF66 /* red-missile.png in Resources */,
+				0A5E57B51A5BCBD700D6BF66 /* spaceship.png in Resources */,
+				0A5E57B31A5BCBD700D6BF66 /* bg.png in Resources */,
 				0A5E57971A5BC08000D6BF66 /* LaunchScreen.xib in Resources */,
 				0A5E57941A5BC08000D6BF66 /* Images.xcassets in Resources */,
 				0A5E578B1A5BC08000D6BF66 /* GameScene.sks in Resources */,
